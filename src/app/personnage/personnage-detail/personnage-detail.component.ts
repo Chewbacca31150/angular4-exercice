@@ -12,7 +12,7 @@ export class PersonnageDetailComponent {
   // TODO: créer une variable perso
 
   // TODO: Appeler PersonnageService dans le constructeur
-  constructor() {
+  constructor(public personnageService: PersonnageService) {
     // TODO: appeler getDetail
   }
 
