@@ -15,8 +15,7 @@ Nous allons développer pour l'instant une solution simple.
 
 Pour ce faire :
 
-1. Suivre les instructions données dans personnage-detail.component.html
-2. Dans personnage-list.component > navigateToDetails(url: string), setter urlPersonnage dans personnage-list.component.ts avec l'url mise en paramètre dans la fonction puis avec this.router.navigate(['urlADonner']), appeler perso. Nous aborderons les routes plus tard, par curiosité, regarder dans app.routes.ts comment les routes sont faites. En appelant this.router.navigate avec l'url correspondante, nous passons par ce fichier qui changera l'url en conséquence et chargera le component ensuite.
-3. Appeler l'api Star Wars dans shared/personnage.service.ts > getOne(). Regarder un exemple étant dans la méthode plus haut
-4. Intégrer personnageService dans personnage-detail.component.ts. Regarder l'exemple dans personnage-list.component.ts
-5. Dans personnage-detail.component.ts, suivre les instructions.
+1. Dans personnage-list.component > navigateToDetails(url: string), setter urlPersonnage dans personnage-list.component.ts avec l'url mise en paramètre dans la fonction puis avec this.router.navigate(['urlADonner']), appeler perso. Nous aborderons les routes plus tard, par curiosité, regarder dans app.routes.ts comment les routes sont faites. En appelant this.router.navigate avec l'url correspondante, nous passons par ce fichier qui changera l'url en conséquence et chargera le component ensuite.
+2. Appeler l'api Star Wars dans shared/personnage.service.ts > getOne(). Regarder un exemple étant dans la méthode plus haut
+3. Intégrer personnageService dans personnage-detail.component.ts. Regarder l'exemple dans personnage-list.component.ts
+4. Dans personnage-detail.component.ts, suivre les instructions.
